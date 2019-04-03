@@ -1,0 +1,85 @@
+
+Mpvue是什么？
+
+
+	Mpvue一个基于Vue的微信小程序前端框架，可以让我们用vue的语法写小程序的项目。
+	
+
+	mpvue 是一个使用 Vue.js 开发小程序的前端框架。框架基于 Vue.js 核心，mpvue 修改了 Vue.js 的 runtime 和 compiler 实现，使其可以运行在小程序环境中，从而为小程序开发引入了整套 Vue.js 开发体验。
+
+
+	官网：http://mpvue.com/
+
+	
+
+	
+	
+
+
+Mpvue是哪个公司的？
+
+	
+	美团旗下产品：美团汽车票 和 美团充电使用，此外，正有一大批小程序正在接入中。
+
+
+
+
+Mpvue未来的目标？
+
+
+
+	在未来最理想的状态是，可以一套代码可以直接跑在多端：WEB、小程序（微信和支付宝）、Native（借助weex）
+
+
+	期待Mpvue做的更好...
+
+
+
+
+创建Mpvue的项目？
+
+
+	http://mpvue.com/mpvue/quickstart/
+
+
+	1、必须按照nodejs
+
+
+	2、安装vue脚手架 npm install --global vue-cli   / cnpm install --global vue-cli  (如果以前安装过可以忽略，只需要安装一次)
+
+
+	3、创建项目   找到项目目录运行命令 ：  vue init mpvue/mpvue-quickstart mympvue01
+
+
+	4、cd 到项目里面安装依赖     cd mympvue01
+
+	
+	5、cnpm install  /  npm install
+
+	
+
+	6、npm run dev  就可以把创建的vue项目转化成小程序的项目
+
+
+	
+
+
+导入到小程序里面。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
