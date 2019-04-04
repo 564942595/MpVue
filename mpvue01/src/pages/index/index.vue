@@ -22,9 +22,10 @@
       <input type="text" class="form-control" v-model.lazy="motto" placeholder="v-model.lazy" />
     </form>
 
+    <button @click="goUser()"> 跳转到用户页面 </button>
 
     <div class="all">
-        <div class="left">
+        <div class="left">123
         </div>
         <div class="right">
         </div>
@@ -62,6 +63,11 @@ export default {
     clickHandle (ev) {
       console.log('clickHandle:', ev)
       // throw {message: 'custom test'}
+    },
+    goUser(){
+      const url = '../user/main';
+      mpvue.switchTab({ url })
+     // mpvue.navigateTo({ url })
     }
   },
 
