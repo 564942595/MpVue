@@ -1,10 +1,11 @@
 {
   "pages": [
     "pages/index/main",
-    "pages/logs/main" ,
-    "pages/user/main" ,
-    "pages/news/main" ,
-    "pages/newsdetail/main"  ],
+    "pages/logs/main",
+    "pages/counter/main",
+    "pages/list/main",
+    "pages/newsdetail/main" 
+  ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
@@ -18,7 +19,7 @@
     "borderStyle": "white",
 
     "list": [{
-      "text": "首页",
+      "text": "首页2",
       "pagePath": "pages/index/main",
       "iconPath": "static/tabs/home.png",
       "selectedIconPath": "static/tabs/home-active.png"
@@ -27,20 +28,20 @@
       "pagePath": "pages/logs/main",
       "iconPath": "static/tabs/orders.png",
       "selectedIconPath": "static/tabs/orders-active.png"
-    }, {
-      "text": "用户",
-      "pagePath": "pages/user/main",
-      "iconPath": "static/tabs/orders.png",
+    },{
+      "text": "列表",
+      "pagePath": "pages/list/main",
+      "iconPath": "static/tabs/home.png",
       "selectedIconPath": "static/tabs/home-active.png"
     }, {
-      "text": "新闻50505050",
-      "pagePath": "pages/news/main",
+      "text": "tab4",
+      "pagePath": "pages/logs/main",
       "iconPath": "static/tabs/orders.png",
-      "selectedIconPath": "static/tabs/home-active.png"
+      "selectedIconPath": "static/tabs/orders-active.png"
     }],
 
     "items": [{
-      "name": "首页",
+      "name": "首页555",
       "pagePath": "pages/index/main",
       "icon": "static/tabs/home.png",
       "activeIcon": "static/tabs/home-active.png"
@@ -49,11 +50,6 @@
       "pagePath": "pages/logs/main",
       "icon": "static/tabs/orders.png",
       "activeIcon": "static/tabs/orders-active.png"
-    }, {
-      "name": "用户",
-      "pagePath": "pages/user/main",
-      "icon": "static/tabs/orders.png",
-      "activeIcon": "static/tabs/home-active.png"
     }],
     "position": "bottom"
   }

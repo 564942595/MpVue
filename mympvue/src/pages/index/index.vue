@@ -7,6 +7,7 @@
 
       <div class="userinfo-nickname">
         <card :text="userInfo.nickName"></card>
+        <button>123</button>
       </div>
     </div>
 
@@ -22,10 +23,10 @@
       <input type="text" class="form-control" v-model.lazy="motto" placeholder="v-model.lazy" />
     </form>
 
-    <button @click="goUser()"> 跳转到用户页面 1</button>
+    <a href="/pages/counter/main" class="counter">1去往Vuex示例页面</a>
 
     <div class="all">
-        <div class="left">123456
+        <div class="left">
         </div>
         <div class="right">
         </div>
@@ -39,7 +40,7 @@ import card from '@/components/card'
 export default {
   data () {
     return {
-      motto: 'Hello miniprograme yes',
+      motto: 'Hello miniprograme',
       userInfo: {
         nickName: 'mpvue',
         avatarUrl: 'http://mpvue.com/assets/logo.png'
@@ -63,11 +64,6 @@ export default {
     clickHandle (ev) {
       console.log('clickHandle:', ev)
       // throw {message: 'custom test'}
-    },
-    goUser(){
-      const url = '../user/main';
-      mpvue.switchTab({ url })
-     // mpvue.navigateTo({ url })
     }
   },
 
