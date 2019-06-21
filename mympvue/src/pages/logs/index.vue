@@ -20,12 +20,10 @@
 <script>
 import { formatTime } from '@/utils/index'
 import card from '@/components/card'
-
 export default {
   components: {
     card
   },
-
   data () {
     return {
       logs: [],
@@ -36,7 +34,6 @@ export default {
       ]
     }
   },
-
   created () {
     let logs
     if (mpvuePlatform === 'my') {
@@ -45,7 +42,6 @@ export default {
       logs = mpvue.getStorageSync('logs') || []
     }
     this.logs = logs.map(log => formatTime(new Date(log)))
-
   },
   methods:{
    
@@ -59,7 +55,6 @@ export default {
   flex-direction: column;
   padding: 40rpx;
 }
-
 .log-item {
   margin: 10rpx;
 }
