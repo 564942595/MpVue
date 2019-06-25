@@ -11,7 +11,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "神州科创小程序标题",
+    "navigationBarTitleText": "物联网维保管理帮手",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
